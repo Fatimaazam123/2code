@@ -23,7 +23,31 @@ def calculate_average(nums):
     return average  # should return the result instead of printing it
 
 
+
+
+
+
+
 # Test the function
 numbers = [10, 20, 30, 40, 50]
 result = calculate_average(numbers)
 print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+def add_numbers(num1, num2):
+    # This function adds two numbers together
+    result = num1 + num2
+    return result
+
+# Test the function
+print(add_numbers(5, 7)) 
