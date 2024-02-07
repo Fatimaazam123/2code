@@ -1,10 +1,14 @@
+
+print()
+
 def calculate_average(nums):
     """
     This function calculates the average of a list of numbers.
     """
     total_sum = 0
     num_count = 0
-    
+    a= 0
+    b= 0
     # Check if the list is empty
     if len(nums) == 0:
         return 0  # should return None or raise an exception to indicate empty list
